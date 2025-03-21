@@ -1,0 +1,25 @@
+.menu {
+    border: 1px solid;
+    background-color: rgba(126, 13, 160, 0.459);
+    display: flex;
+    list-style:none;
+}
+
+.itens-menu {
+    transition: opacity 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.itens-menu:hover {
+ /* opacity: 0.7;*/
+ background-color:rgba(97, 49, 151, 0.705);
+}
+
+.link-item-menu {
+padding:0px 10px;
+color: aliceblue;
+font-weight: bold;
+text-decoration: none;
+}
