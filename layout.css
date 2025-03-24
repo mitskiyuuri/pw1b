@@ -1,0 +1,42 @@
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+background-color:azure;
+}
+
+.container {
+width: 80%;
+height: 100%;
+background-color: darkolivegreen;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 75% 25%;
+grid-template-rows: 100px auto 150px;
+grid-template-areas: "cabecalho cabecalho"
+                    "secao barra-lateral"
+                    "rodape rodape";
+}
+
+
+header {
+    background-color: chocolate;
+    grid-area: cabecalho;
+}
+main{
+    background-color: blue;
+    grid-area: secao;
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+aside{
+    background-color: blueviolet;
+    grid-area: barra-lateral;
+}
+
+footer {
+background-color: brown;
+grid-area: rodape;
+}
+
